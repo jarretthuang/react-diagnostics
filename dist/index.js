@@ -1,0 +1,1 @@
+export { withDiagnostics } from "./withDiagnostics";

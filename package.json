@@ -1,0 +1,42 @@
+{
+  "name": "react-diagnostics",
+  "version": "1.0.0",
+  "description": "Diagnostics for React components",
+  "keywords": [
+    "react",
+    "performance",
+    "diagnostics"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jarretthuang/react-diagnostics"
+  },
+  "author": "Jarrett Huang <jarrett@jhuang.ca>",
+  "license": "MIT",
+  "main": "./dist/main.js",
+  "module": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "dependencies": {
+    "object-sizeof": "^2.6.3"
+  },
+  "devDependencies": {
+    "@types/node": "^18.16.0",
+    "@types/react": "18.0.38",
+    "@types/react-dom": "18.0.11",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "typescript": "^4.9.5"
+  },
+  "peerDependencies": {
+    "react": ">=16.8",
+    "react-dom": ">=16.8"
+  },
+  "files": [
+    "dist/",
+    "LICENSE.md",
+    "README.md"
+  ],
+  "engines": {
+    "node": ">=14.0.0"
+  }
+}

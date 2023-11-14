@@ -55,7 +55,7 @@ const customConfig = {
   devModeOnly: true,
 };
 
-export default withDiagnostics.config(customConfig)(MyComponent);
+export default withDiagnostics.fromConfig(customConfig)(MyComponent);
 ```
 
 ## Example
